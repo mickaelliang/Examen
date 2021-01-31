@@ -45,7 +45,7 @@ value +"000"[0,5-value.length()]
         "fromError": false,
         "to": "1.489"
 ````
-<p style='text-align: justify;'>L’historique de la totalité des modifications réalisées est présente sur la page github suivante : </p>
+<p style='text-align: justify;'>L’historique de la totalité des modifications réalisées est présent sur la page github suivante : </p>
 ## Première visualisation
 
 ## Seconde visualisation
