@@ -55,7 +55,7 @@ value +"000"[0,5-value.length()]
         "to": "1.489"
 ````
 <p style='text-align: justify;'>L’historique de la totalité des modifications réalisées est accessible en cliquant <a href="https://mickaelliang.github.io/ModifsDataExamen/">ici</a>.<br/>
-Le fichier csv que j'ai modifié est disponible en téléchargement via Wetransfer en cliquant <a href="https://wetransfer.com/downloads/cd96ca7e9756b0c702c8362a71cda05d20210131155232/b844ea88f6a3d01849c6b8a34b421f8a20210131155258/219c41">ici</a>.</p><br/>
+Le fichier csv de mon jeu de données comportant les nouvelles modifications est disponible en téléchargement via Wetransfer en cliquant <a href="https://wetransfer.com/downloads/cd96ca7e9756b0c702c8362a71cda05d20210131155232/b844ea88f6a3d01849c6b8a34b421f8a20210131155258/219c41">ici</a>.</p><br/>
 ## Carte de France des clusters
 <iframe frameborder="0" width="600" height="450" src="https://data.opendatasoft.com/map/embed/carte_de_chaleur/?&static=false&scrollWheelZoom=false"></iframe>
 <i>Outil utilisé : opendatasoft</i><br/>
