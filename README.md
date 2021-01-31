@@ -1,5 +1,5 @@
 # Prix des carburants à j-7
-<img src="https://cdn.pixabay.com/photo/2013/08/23/22/07/gasoline-175122_1280.jpg height="500" width="720"">
+<img src="https://cdn.pixabay.com/photo/2013/08/23/22/07/gasoline-175122_1280.jpg">
 <i>Source : https://cdn.pixabay.com/photo/2013/08/23/22/07/gasoline-175122_1280.jpg, image libre de droits</i>
 
 ## À propos
