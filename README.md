@@ -32,7 +32,7 @@ Pour transformer les nombres avec uniquement deux chiffres après la virgule, j�
 ````grel
 value +"000"[0,5-value.length()]
 ````
-<p style='text-align: justify;'>Cette formule, appliquée à toutes les cellules des champs des différents types de carburant m’a permis d’obtenir des prix avec trois chiffres après la virgule. Voici ci-dessous un exemple avec le prix du Gazole. </p>
+<p style='text-align: justify;'>Cette formule, appliquée à toutes les cellules des champs des différents types de carburant m’a permis d’obtenir des prix avec trois chiffres après la virgule. Voici ci-dessous un exemple de la modification avec le prix du Gazole. </p>
 ````json
  "columnName": "Prix Gazole",
     "expression": "grel:value +\"00\"[0,5-value.length()]",
@@ -41,7 +41,7 @@ value +"000"[0,5-value.length()]
     "repeatCount": 10,
     "description": "Text transform on cells in column Prix Gazole using expression grel:value +\"00\"[0,5-value.length()]"
 ````
-<p style='text-align: justify;'>Pour transformer les nombres avec plus de trois chiffres après la virgule, j’ai créé une facette textuelle d’un champ de type "prix carburant". Puis, j’ai édité manuellement ces données pour les limiter à trois chiffres après la virgule. Voici ci-dessous un exemple avec le prix du SP95. </p>
+<p style='text-align: justify;'>Pour transformer les nombres avec plus de trois chiffres après la virgule, j’ai créé une facette textuelle d’un champ de type "prix carburant". Puis, j’ai édité manuellement ces données pour les limiter à trois chiffres après la virgule. Voici ci-dessous un exemple de la modification avec le prix du SP95. </p>
 ````json
  "columnName": "Prix SP95",
     "expression": "value",
