@@ -54,8 +54,7 @@ value +"000"[0,5-value.length()]
         "fromError": false,
         "to": "1.489"
 ````
-<p style='text-align: justify;'>L’historique de la totalité des modifications réalisées est accessible en cliquant <a href="https://mickaelliang.github.io/ModifsDataExamen/">ici</a>.</p>
-<br/>
+<p style='text-align: justify;'>L’historique de la totalité des modifications réalisées est accessible en cliquant <a href="https://mickaelliang.github.io/ModifsDataExamen/">ici</a>.</p><br/>
 ## Première visualisation
 <iframe frameborder="0" width="600" height="450" src="https://data.opendatasoft.com/map/embed/carte_de_chaleur/?&static=false&scrollWheelZoom=false"></iframe>
 
