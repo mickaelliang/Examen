@@ -62,7 +62,7 @@ value +"000"[0,5-value.length()]
 <p style='text-align: justify;'>Pour la première visualisation, j'ai pris en compte que le jeu de données que j'ai sélectionné possédait des coordonnées géographiques. Ainsi, j'ai décidé d'afficher le nombre de stations-essences à l'échelle nationale à l'aide d'une carte, à partir de leur géolocalisation. Avec l'affichage de type clusters, nous pouvons voir que la grande majorité des stations essences se situent dans les plus grandes villes de France, à noter Paris, Lyon, Marseille, Bordeaux et Lille. C'est un constat plutôt logique dans le sens où ce sont les villes où il y a le plus d'habitants, et donc de véhicules, par conséquent il y a la nécessité d'avoir un plus grand nombre de stations-essences aux alentours de ces villes. Cette carte, relativement lisible et compréhensible, permet ainsi de voir les différents clusters de stations-essences en France, à partir de la taille des bulles et de leurs couleurs (plus ou moins foncées selon leur ordre de grandeur).</p>
 
 ## Seconde visualisation
-
+<div class="flourish-embed flourish-chart" data-src="visualisation/5142807"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ## Troisième visualisation
 
 ## Requêtes SPARQL 
