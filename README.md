@@ -59,7 +59,7 @@ value +"000"[0,5-value.length()]
 ## Carte de France des clusters
 <iframe frameborder="0" width="580" height="450" src="https://data.opendatasoft.com/map/embed/carte_de_chaleur/?&static=false&scrollWheelZoom=false"></iframe>
 <i>Outil utilisé : Opendatasoft</i><br/>
-<p style='text-align: justify;'>Pour la première visualisation, j'ai pris en compte que le jeu de données que j'ai sélectionné possédait des coordonnées géographiques. Ainsi, j'ai décidé d'afficher le nombre de stations-essences à l'échelle nationale à l'aide d'une carte, à partir de leur géolocalisation. Avec l'affichage de type clusters, nous pouvons voir que la grande majorité des stations essences se situent dans les plus grandes villes de France, à noter Paris, Lyon, Marseille, Bordeaux et Lille. C'est un constat plutôt logique dans le sens où ce sont les villes où il y a le plus d'habitants, et donc de véhicules, par conséquent il y a la nécessité d'avoir un plus grand nombre de stations-essences aux alentours de ces villes. Cette carte, relativement lisible et compréhensible, permet ainsi de voir les différents clusters de stations-essences en France, à partir de la taille des bulles et de leurs couleurs (plus ou moins foncées selon leur ordre de grandeur).</p>
+<p style='text-align: justify;'>Pour la première visualisation, j'ai pris en compte que le jeu de données que j'ai sélectionné possédait des coordonnées géographiques. Ainsi, j'ai décidé d'afficher le nombre de stations-essences à l'échelle nationale à l'aide d'une carte, à partir de leur géolocalisation. Avec l'affichage de type clusters, nous pouvons voir que la grande majorité des stations-essences se situent dans les plus grandes villes de France, à noter Paris, Lyon, Marseille, Bordeaux et Lille. C'est un constat plutôt logique dans le sens où ce sont les villes où il y a le plus d'habitants, et donc de véhicules, par conséquent il y a la nécessité d'avoir un plus grand nombre de stations-essences aux alentours de ces villes. Cette carte, relativement lisible et compréhensible, permet ainsi de voir les différents clusters de stations-essences en France, à partir de la taille des bulles et de leurs couleurs (plus ou moins foncées selon leur ordre de grandeur).</p>
 
 ## Column chart comparatif du prix du gazole selon les villes
 <div class="flourish-embed flourish-chart" data-src="visualisation/5143405"><script src="https://public.flourish.studio/resources/embed.js"></script></div> 
@@ -69,6 +69,7 @@ Par ailleurs, malgré avoir modifié le prix des carburants à trois chiffres ap
 ## Troisième visualisation
 
 ## Requêtes SPARQL 
+<p style='text-align: justify;'>Pour enrichir mon travail, j'ai décidé d'utiliser une requête SPARQL, créée avec Wikidata Query. Cette requête m'a permis d'afficher les différentes stations-services présentes aux Etats-Unis. Nous pouvons voir sur la carte que j'ai intégré ci-dessous, que les stations-essences sont globalement bien réparties dans le pays. A la différence de la France où il y a plusieurs clusters dans les grandes villes, nous pouvons voir qu'aux Etats-Unis, il ne semble y'en avoir qu'un seul, aux alentours d'Oklahoma City.</p>
 ````sparql
 #Stations-services aux Etats-Unis
 #defaultView:Map
