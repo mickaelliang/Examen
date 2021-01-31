@@ -45,8 +45,8 @@ value +"000"[0,5-value.length()]
         "fromError": false,
         "to": "1.489"
 ````
-<p style='text-align: justify;'>L’historique de la totalité des modifications réalisées est présent sur la page github suivante : </p>
-https://mickaelliang.github.io/ModifsDataExamen/
+<p style='text-align: justify;'>L’historique de la totalité des modifications réalisées est accessible en cliquant [ici](https://mickaelliang.github.io/ModifsDataExamen/) </p>
+
 
 ## Première visualisation
 
