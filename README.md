@@ -70,7 +70,7 @@ value +"000"[0,5-value.length()]
       "schemaSpace": "http://www.wikidata.org/prop/direct/",
       "type": {
         "id": "Q484170",
-        "name": "commune of France"<br/>
+        "name": "commune of France"
 ````
 <p style='text-align: justify;'>Pour poursuivre, j'ai voulu créer une nouvelle colonne "Population" qui contiendrait le nombre d'habitants de chacune des 5 grandes villes, à partir des données que j'avais précédemment alignées. Pour ce faire, j'ai donc créé une nouvelle colonne à partir des valeurs réconciliées. Puis, dans le menu "Add Property", j'ai entré le terme "Population" (identifiant : P1082). J'ai ensuite cliqué sur le bouton "Valider" et j'ai vu que les informations ont été correctement entrées :</p>
 ````json
