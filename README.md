@@ -72,17 +72,17 @@ value +"000"[0,5-value.length()]
         "id": "Q484170",
         "name": "commune of France"<br/>
 ````
-<p style='text-align: justify;'>Pour poursuivre, j'ai voulu créer une nouvelle colonne "Population" qui contiendrait le nombre d'habitants de chacune des 5 grandes villes, à partir des données que j'avais précédemment alignées. Pour ce faire, j'ai donc créé une nouvelle colonne à partir des valeurs réconciliées. Puis, dans le menu "Add Property", j'ai entré le terme "Population". J'ai ensuite cliqué sur le bouton "Valider" et j'ai vu que les informations ont été correctement entrées :</p>
+<p style='text-align: justify;'>Pour poursuivre, j'ai voulu créer une nouvelle colonne "Population" qui contiendrait le nombre d'habitants de chacune des 5 grandes villes, à partir des données que j'avais précédemment alignées. Pour ce faire, j'ai donc créé une nouvelle colonne à partir des valeurs réconciliées. Puis, dans le menu "Add Property", j'ai entré le terme "Population" (identifiant : P1082). J'ai ensuite cliqué sur le bouton "Valider" et j'ai vu que les informations ont été correctement entrées :</p>
 ````json
- "columnName": "Ville",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://wdreconcile.toolforge.org/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q484170",
-        "name": "commune of France"
+ "baseColumnName": "Ville",
+    "endpoint": "https://wdreconcile.toolforge.org/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P1082",
+          "name": "population"
 ````
 <p style='text-align: justify;'>➨ L’historique de la totalité des modifications réalisées est accessible en cliquant <a href="https://mickaelliang.github.io/ModifsDataExamen/">ici</a>.<br/>
 ➨ Le fichier csv de mon second jeu de données comportant l'alignement effectué est disponible en téléchargement via Wetransfer en cliquant <a href="https://wetransfer.com/downloads/c650b236e534db9d1bceba1bfb723a5120210202101341/e9193de7776c203b5dd5e4068042efbd20210202101357/cb556e">ici</a>.</p><br/>
